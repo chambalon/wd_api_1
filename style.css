@@ -1,0 +1,61 @@
+/*
+Autor:Neha
+css file for dogapi webpage
+*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg{
+    background-image: url(dogimg.jpg);
+    background-size: cover;
+    background-position: left;
+    height: 100%;
+    background-repeat: no-repeat;  
+}
+html,body{
+    background-color: rgb(247, 214, 189);
+    height: 100%;
+    margin:0px
+    
+}
+h1{
+    font-size: 2.2cm;
+    text-align: center;
+    color: rgb(157, 68, 4);
+    font-weight: bold;
+    padding: 0.2em;
+    margin: 0px;
+}
+p{
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(48, 47, 47);
+    
+}
+.panel{
+    background-color: rgb(254, 249, 249);
+    width: 33%;
+    margin-left: auto;
+    margin-right:5em ;
+    margin-top: 7em;
+    border-radius: 10px;
+    padding: 3em;
+    text-align: center;
+    
+    display: block;
+    height: auto;
+}
+#breed-list{
+    display: block;
+    width: 90%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+}
+
+#image-container{
+    display: none;
+}
