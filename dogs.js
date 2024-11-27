@@ -28,15 +28,3 @@ function createOption(e){
     option.textContent = e;
     return option;
 }
-
-
-// Method2
-/*function displayBreedList(){
-    getBreedList().then(function(data){
-        for(e in data.message){
-            let option = document.createElement("option");
-            option.textContent =e;
-            breedList.appendChild(option);
-        }
-    });
-}*/
